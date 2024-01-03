@@ -16,16 +16,11 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #101010;
+  background: #101010;
   /* background-color: rgba(197, 195, 195, 0.514); */
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

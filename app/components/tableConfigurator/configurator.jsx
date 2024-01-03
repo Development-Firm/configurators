@@ -71,7 +71,7 @@ const ModelCanvas = ({ texture }) => {
           enableZoom={false}
           enablePan={false}
         />
-        <Stage environment='apartment' intensity={0.001} castShadow={false}>
+        <Stage environment='warehouse' intensity={0.001} castShadow={false}>
           <Model isMobile={isMobile} texture={texture} />
         </Stage>
         <mesh rotation={[-Math.PI / 2, 0, 0]} position-y={-2}>
